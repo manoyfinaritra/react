@@ -1,4 +1,4 @@
-import Form from "./components/Form"
+import Contact from "./components/Form"
 function App(){
     return(
         <>

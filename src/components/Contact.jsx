@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function Form() {
+function Contact() {
     const[name, setName] = useState('exemple')
     const change = (e) => {
         setName(e.target.value)
@@ -15,6 +15,7 @@ function Form() {
             <div><h3>connexion</h3></div>
                 <input type="text"  value={name} onChange={change}/>
                 <input type="password" placeholder="password" />
+                <input type="email" placeholder="email" />
             <div>
                 <button>envoyer</button>
             </div>
@@ -23,4 +24,4 @@ function Form() {
   )
 }
 
-export default Form
+export default Contact
