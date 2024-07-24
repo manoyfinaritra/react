@@ -1,12 +1,13 @@
 import Contact from "./components/Form"
 function App(){
-    return(
+    return (
         <>
-        <div className="container-manoy">
-            <Form />
-        </div>
+            <div className="container-manoy">
+                <Form/>
+            </div>
+
         </>
-    )
+    );
 
 }
 export default App
